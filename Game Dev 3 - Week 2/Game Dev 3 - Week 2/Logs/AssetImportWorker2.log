@@ -1326,3 +1326,366 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity 2022.3.30f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 1306ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.8 MB). Loaded Objects now: 4075.
+Memory consumption went from 137.5 MB to 135.7 MB.
+Total: 2.281700 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.870700 ms  DeleteObjects: 0.208100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1671.097713 seconds.
+  path: Assets/_Scripts/Guns/Guns_Shotgun.cs
+  artifactKey: Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Guns/Guns_Shotgun.cs using Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9680dbfdaf663935aa9fa353dd0a9d') in 0.004460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.274 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity 2022.3.30f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 752ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 4091.
+Memory consumption went from 137.3 MB to 135.5 MB.
+Total: 2.109400 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.719900 ms  DeleteObjects: 0.183300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.232144 seconds.
+  path: Assets/_Scripts/Guns/Guns_Shotgun.cs
+  artifactKey: Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Guns/Guns_Shotgun.cs using Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60135dd033d8917f38c8ebc3c7bb8f98') in 0.002175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.570608 seconds.
+  path: Assets/_Scripts/Guns/Guns_Shotgun.cs
+  artifactKey: Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Guns/Guns_Shotgun.cs using Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a166cca105d04c820faffb38d76ba') in 0.000329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.077847 seconds.
+  path: Assets/_Scripts/Guns/Guns_Shotgun.cs
+  artifactKey: Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Guns/Guns_Shotgun.cs using Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3197e1290a6c2e34ec07fbce24acee78') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: E:/Unity 2022.3.30f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 4106.
+Memory consumption went from 137.3 MB to 135.5 MB.
+Total: 2.022700 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.620000 ms  DeleteObjects: 0.205200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2.952706 seconds.
+  path: Assets/_Scripts/Guns/Guns_Shotgun.cs
+  artifactKey: Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Guns/Guns_Shotgun.cs using Guid(17dcf956bdbc93b41804ed7bd76fa120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1aea150ed3bd9c0d691936d4fe97e22') in 0.002031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.331121 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(3a8ee3afdcdbd744884acdc1860f96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(3a8ee3afdcdbd744884acdc1860f96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2f40eee16943b3d9a220791bb1d3a') in 0.000333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051729 seconds.
+  path: Assets/Prefab/TigerSymbol.prefab
+  artifactKey: Guid(f82f0fae204e49843bfef89f70ca80ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TigerSymbol.prefab using Guid(f82f0fae204e49843bfef89f70ca80ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c641cab06a9db003fe2da5d8170add88') in 0.016869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 79.855832 seconds.
+  path: Assets/Prefab/WidowMaker.prefab
+  artifactKey: Guid(73e36905d00f17c4cb2aee5f165226dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/WidowMaker.prefab using Guid(73e36905d00f17c4cb2aee5f165226dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4ee441eb385d368ccc9e88e1b15394') in 0.039696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 5.844571 seconds.
+  path: Assets/_AssetPacks/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio/SFX_Assault Single Shot.wav
+  artifactKey: Guid(0e5ec5d798406aa4699be8c44dd7599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_AssetPacks/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio/SFX_Assault Single Shot.wav using Guid(0e5ec5d798406aa4699be8c44dd7599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bf56251e73128fff76670e5d6263dd') in 0.035174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.174922 seconds.
+  path: Assets/Prefab/WidowMaker.prefab
+  artifactKey: Guid(73e36905d00f17c4cb2aee5f165226dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/WidowMaker.prefab using Guid(73e36905d00f17c4cb2aee5f165226dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60156ab77bd6d8bb5e7d949e34cefc1c') in 0.018092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 46.618583 seconds.
+  path: Assets/_AssetPacks/Stylized Weapon Pack/M4 Scoped Assault Rifle/Models/Assault_Rifle_M4.fbx
+  artifactKey: Guid(d0de870e1e071ff4e841c05aeec60610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_AssetPacks/Stylized Weapon Pack/M4 Scoped Assault Rifle/Models/Assault_Rifle_M4.fbx using Guid(d0de870e1e071ff4e841c05aeec60610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac4294fb1e3ed1d8b91fef4d66546c7') in 0.018245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/3dAssets/GunModels/blasterB.fbx
+  artifactKey: Guid(1785be5fe3bf3a942bfe5ff8676434ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dAssets/GunModels/blasterB.fbx using Guid(1785be5fe3bf3a942bfe5ff8676434ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a738c006bd213be8ead12e7dfb3ba5bc') in 0.030259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3dAssets/GunModels/blasterF.fbx
+  artifactKey: Guid(9a6b7ec561bdcd74e9d537ca2da9ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dAssets/GunModels/blasterF.fbx using Guid(9a6b7ec561bdcd74e9d537ca2da9ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e60eca4ba5a83dded31bcd4e0ea3667') in 0.018379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/3dAssets/GunModels/blasterE.fbx
+  artifactKey: Guid(12ba83f26d1cd034595955a0af4d645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dAssets/GunModels/blasterE.fbx using Guid(12ba83f26d1cd034595955a0af4d645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097516b04f6915abbb72e126f915783') in 0.016913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3dAssets/GunModels/blasterC.fbx
+  artifactKey: Guid(3b7cac44b82814440b01322878c1e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dAssets/GunModels/blasterC.fbx using Guid(3b7cac44b82814440b01322878c1e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43688c5bdf0df87f28ff6389697f327f') in 0.015142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.785068 seconds.
+  path: Assets/3dAssets/GunModels/foamBulletA-low.fbx
+  artifactKey: Guid(95d41bc2059085a449871e419d04ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dAssets/GunModels/foamBulletA-low.fbx using Guid(95d41bc2059085a449871e419d04ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa2e3a2f9d36125c1e6911138406ea9') in 0.019498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BigRookGames/Prefabs/VFX_M4 Muzzle Flash.prefab
+  artifactKey: Guid(4543ab5e3d405ec40a8d4e9aa5165030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigRookGames/Prefabs/VFX_M4 Muzzle Flash.prefab using Guid(4543ab5e3d405ec40a8d4e9aa5165030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7988d82564d9298d98e047ff44d743') in 0.025759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
