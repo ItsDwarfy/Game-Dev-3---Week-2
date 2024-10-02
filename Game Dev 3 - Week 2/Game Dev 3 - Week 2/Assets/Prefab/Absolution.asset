@@ -16,5 +16,5 @@ MonoBehaviour:
   gunSubTitle: Projection of finality
   gunDescription: Reliably creating grusome endings since 2062
   gunFireSpeed: 10
-  gunPrefab: {fileID: 0}
-  gunSymbol: {fileID: 0}
+  gunPrefab: {fileID: 9028580339747694192, guid: 876345aaf9fab2248bec172f1efae0b3, type: 3}
+  gunSymbol: {fileID: 2728346674274160565, guid: 875ed66b166dfbe498faf0a9dcf9a9ad, type: 3}
